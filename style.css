@@ -1,0 +1,79 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+:root {
+  --black: #000000;
+  --font-size-m: 40px;
+  --font-family-inter: "Inter", Helvetica;
+}
+
+.desktop-1 {
+  align-items: flex-end;
+  background-color: #ffffff;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+  height: 1024px;
+  padding: 199px 156px;
+  width: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.to-access-my-website {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 34px;
+  min-height: 100px;
+  text-align: center;
+  width: 800px;
+}
+
+.inter-normal-black-40px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.overlap-group {
+  height: 198px;
+  position: relative;
+  width: 1094px;
+}
+
+.httpsgecko-parrot {
+  color: #0038ff;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 1094px;
+}
+
+.password-cs32 {
+  left: 347px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 98px;
+  width: 400px;
+}
